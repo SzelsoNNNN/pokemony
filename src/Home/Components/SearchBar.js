@@ -15,7 +15,7 @@ const SearchBar = () => {
     return(
         <>
             <Stack sx={{width: '100vw', marginTop: '20px'}} justifyContent="center" alignItems="center">
-                <TextField sx={{width: '90%', maxWidth: '1000px'}} color="error" label="Nazwa pokemona" size="small" variant="outlined"
+                <TextField sx={{width: '90%', maxWidth: '1000px'}} label="Nazwa pokemona" size="small" variant="outlined"
                     onChange={(e) => setName(e.target.value)}
                 />
             </Stack>
